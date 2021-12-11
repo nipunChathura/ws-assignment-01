@@ -86,4 +86,4 @@ class LonHelper:
             else:
                 return "Guarantee user is not valid"
         else:
-            return "Lon price guarantee"
+            return "Lon price Large"
