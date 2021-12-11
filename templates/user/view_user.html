@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View User</title>
+</head>
+<body>
+{{name}}
+
+<ul>
+    {% for user in users %}
+    <li>
+        {{user.id}}
+        {{user.name}}
+        {{user.deposit_price}}
+        {{user.guarantee_status}}
+    </li>
+    {%endfor%}
+</ul>
+</body>
+</html>
